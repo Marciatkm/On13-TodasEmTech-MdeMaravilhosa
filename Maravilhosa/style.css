@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  
 }
 
 a {
@@ -29,12 +30,73 @@ a {
 
 
 /* HEADER */
+.header{
+    background-image:  url(./img/backgroud_header_01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    width: 100%;
+    height: px;
+    color: #ffffff;
+}
+.container-header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+}
+/*.header-container-img{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}*/
+.header_maravilhosa_img{
+    width: 90%;
+    height: 220px;
+    margin-left: 20px;
+    margin-top: 50px;
+    
+}
+.header-titulo{
+    width: 90%;
+    margin: 5px 10px 5px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+   
+
+
 
 
 
 
 /* --- BOTAO --- */
-  
+.header-button {
+    background-color:purple;
+    border-radius: 50px ;
+    width: 150px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-top: 40px;
+ }
+.header-button:hover {
+    background-color: rgb(42, 22, 59);
+    color: #ffffff;
+    transition: background-color .5s;
+}
+
+
 
 
 /*********** HEADER   *********/
@@ -43,7 +105,9 @@ a {
 
 /* SECAO Maravilhosa */
 
-
+.maravilhosa{
+    background-color: brown;
+}
 
 /* AUTORA */
 
