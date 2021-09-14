@@ -177,7 +177,8 @@
       font-size: 32px;
       font-weight: bold;
       letter-spacing: 1px;
-      padding: 30px;
+      padding: 0px;
+      
   }
   
   .autora_sobre{
@@ -190,11 +191,11 @@
       border-radius: 60%;
       margin-right: 20px;
   }
-  .descriçao-autora{
+  /*.descriçao-autora{
       flex-wrap: wrap;
       margin-top: auto;
-      font-size: 12px;
-  }
+      font-size: 14px;
+  }*/
   
   /* FOOTER */
   .footer {
@@ -216,6 +217,8 @@
       display: block;
       text-align: center;
       list-style: none;
+      align-items: row;
+      flex-direction: row;
   }
   
   
@@ -231,7 +234,7 @@
       bottom: 0;
       left: 0;
       width: 100%;
-      font-size: 10px;
+      font-size: 12px;
       
   }
   .s2{
@@ -239,6 +242,37 @@
   }
   
   /* MEDIA QUERY */
+  @media(min-width:720px){
+      .autora_imagem{
+        width: 40%;
+        height: 90%;
+        border-radius: 60%;
+        margin-right: 20px;
+      }
+      
+      .autora-trajetoria{
+          font-size: 16px;
+          margin-top: auto;
+          margin: 20px;
+          justify-content: center;
+      }
+      .autora_titulo{
+        padding: 30px;
+      }
+      .footer_cc{
+          padding: .9px;
+          font-size: 14px;
+      }
+  }
+  @media (min-width: 768px){
+      .footer_menu{ 
+          padding: 40%;
+      }
+      .footer_cc{
+          padding: 10px;
+          font-size: 14px;
+      }
+  }
   
   @media (min-width: 768px){
       .container_header {
@@ -246,6 +280,7 @@
           flex-direction: row;
           align-items: center;
       }
+      
   
       .header_maravilhosa_img{
           width: 100%;
@@ -255,4 +290,52 @@
       }
       
   }
+  @media(max-width:673px){
+    .redes-sociais{
+        flex-wrap: nowrap;
+
+        
+    }
+    
+    @media(min-width:714px){
+        .autora_imagem{
+            width: 40%;
+        }
+
+    }
+
+  }
+  @media(min-width:770px){
+    .autora_imagem{
+        width: 50px;
+        height: 90%;
+        border-radius: 60%;
+        margin-right: 20px;
+        flex-wrap: wrap;
+    }
+
+}
+  @media(min-width:320px){
+      .autora_imagem{
+          width: 50%;
+      }
+      .autora-trajetoria{
+          flex-wrap: wrap;
+          font-size: 14px;
+      }
+  }
+  @media(min-width:961px){
+      .autora_imagem{ 
+          width: 60%;
+          flex-wrap: wrap;
+      }
+  }
+  @media (min-width: 1200px){
+    .autora_imagem {
+        width: 220PX;
+        flex-wrap: wrap;
+    }
+
+  }
+
   
