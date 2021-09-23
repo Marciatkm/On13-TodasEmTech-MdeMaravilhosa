@@ -127,13 +127,13 @@
   }
   
   .maravilhosa_boxBorder{
-      border:1px solid #674582;
+      border:2px solid #674582;
       margin: 42px;
   }
   
   .boxBorder_texto{
       margin: 30px;
-      color: #462755;
+      color: #3d0e55;
       text-align: center;
   }
   
@@ -141,13 +141,13 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      color: #674582;
+      color: #3d0e55;
   }
   
   .suaHistoria_imagem {
       width: 80%;
       margin-bottom: 30px;
-      border-radius: 10px;
+      border-radius:200px;
       border: 2px solid #462755;
   
   }
@@ -161,6 +161,12 @@
   .suaHistoria_titulo{
       color: #462755;
       padding-bottom: 10px;
+      text-align: center;
+      text-shadow:0px 2px 5px #b82f95;
+  }
+  .buttonjm{
+      border-radius: 22px;
+      text-shadow:0px 2px 5px #b82f95;
   }
   
   .suaHistoria_paragrafo{
@@ -189,6 +195,7 @@
     font-weight: bold;
     letter-spacing: 1px;
     margin-bottom: 20px;
+    text-shadow:0px 2px 3px #1b0315;
 }
 
 
@@ -208,10 +215,18 @@
 
 .container_autora {
     text-align: center;
+    
 }
 
 .container_autora_texto {
     margin-top: 25px;
+    text-align:center;
+}
+.autora-trajetoria{
+    
+    text-shadow:0px 2px 5px #b3258f;
+    margin: 5px;
+
 }
   
   
